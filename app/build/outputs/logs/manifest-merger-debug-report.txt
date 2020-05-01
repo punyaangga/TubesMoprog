@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\0362ff4d8672321347a402c32368f192\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -25,25 +25,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Angga Fantiya H\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
 	package
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:3:5-38
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-21:12
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-19:19
+ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-19:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.core:core:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:5-89
@@ -53,35 +53,35 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\An
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 	android:supportsRtl
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.example.tubesmoprog.MainActivity
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml:16:27-74
 uses-sdk
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:5:5-7:41
@@ -124,13 +124,13 @@ MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Angga Fa
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Angga Fantiya H\Downloads\TubesMoprog\app\src\main\AndroidManifest.xml
