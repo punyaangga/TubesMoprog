@@ -31,18 +31,18 @@
 21        <activity android:name="com.example.tubesmoprog.HalamanAwalActivity" />
 21-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-66
 21-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-54
-22        <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" />
-22-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-58
-22-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-55
+22        <activity android:name="com.example.tubesmoprog.LoginActivity" />
+22-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-51
+22-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-48
 23        <activity android:name="com.example.tubesmoprog.RegisterActivity" />
 23-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-54
 23-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-51
 24        <activity android:name="com.example.tubesmoprog.MainActivity" />
 24-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-50
 24-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-47
-25        <activity android:name="com.example.tubesmoprog.LoginActivity" >
+25        <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" >
 25-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-22:20
-25-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-48
+25-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-55
 26            <intent-filter>
 26-->D:\TubesMoprog\app\src\main\AndroidManifest.xml:17:13-21:29
 27                <action android:name="android.intent.action.MAIN" />

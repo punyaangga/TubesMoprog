@@ -68,10 +68,10 @@ activity#com.example.tubesmoprog.HalamanAwalActivity
 ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-66
 	android:name
 		ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-54
-activity#com.example.tubesmoprog.HalamanUtamaActivity
-ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-58
+activity#com.example.tubesmoprog.LoginActivity
+ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-51
 	android:name
-		ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-55
+		ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-48
 activity#com.example.tubesmoprog.RegisterActivity
 ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-54
 	android:name
@@ -80,10 +80,10 @@ activity#com.example.tubesmoprog.MainActivity
 ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-50
 	android:name
 		ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-47
-activity#com.example.tubesmoprog.LoginActivity
+activity#com.example.tubesmoprog.HalamanUtamaActivity
 ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-22:20
 	android:name
-		ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-48
+		ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-55
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\TubesMoprog\app\src\main\AndroidManifest.xml:17:13-21:29
 action#android.intent.action.MAIN
