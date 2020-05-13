@@ -18,6 +18,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.tubesmoprog.AdminRsRujukan" />
+        <activity android:name="com.example.tubesmoprog.BacaYuk" />
+        <activity android:name="com.example.tubesmoprog.PusatEdukasi" />
+        <activity android:name="com.example.tubesmoprog.DaftarRumahSakit" />
         <activity android:name="com.example.tubesmoprog.HalamanAwalActivity" />
         <activity android:name="com.example.tubesmoprog.LoginActivity" />
         <activity android:name="com.example.tubesmoprog.RegisterActivity" />

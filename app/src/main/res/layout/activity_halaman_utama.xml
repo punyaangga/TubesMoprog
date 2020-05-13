@@ -1,201 +1,208 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/colorPurple"
-    tools:context=".HalamanUtamaActivity">
-
-    <TextView
-        android:id="@+id/TvJdlHU"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="E-ViCo19"
-        android:textStyle="bold"
-        android:textColor="@color/colorWhite"
-        android:layout_marginTop="30dp"
-        android:layout_marginLeft="30dp"
-        android:fontFamily="Roboto"
-        android:textSize="16sp"
-        android:gravity="center"></TextView>
-
-    <TextView
-        android:id="@+id/TvKetJud"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Ayo Kawal Covid 19"
-        android:textColor="@color/lightGray"
-        android:layout_marginLeft="30dp"
-        android:fontFamily="Roboto"
-        android:textSize="13sp"
-        android:gravity="center"></TextView>
-
+    >
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/rr_kotakhalutama"
-        android:layout_marginTop="30dp"
-        android:orientation="vertical">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="0dp"
-            android:orientation="horizontal">
-        <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="110dp"
-            android:background="@drawable/rr_kmhalutama"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="25dp"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/btn_pEdukasi"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/ic_school_black_24dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"></Button>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Pusat Edukasi"
-                android:textColor="@color/lightGray"
-                android:gravity="center"></TextView>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="150dp"
-            android:layout_height="110dp"
-            android:layout_marginTop="30dp"
-            android:layout_marginLeft="10dp"
-            android:background="@drawable/rr_kmhalutama"
-            android:orientation="vertical">
-
-            <Button
-                android:id="@+id/btn_rsRujukan"
-                android:layout_width="60dp"
-                android:layout_height="60dp"
-                android:background="@drawable/ic_local_hospital_black_24dp"
-                android:layout_gravity="center"
-                android:layout_marginTop="10dp"></Button>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="Daftar RS Rujukan"
-                android:textColor="@color/lightGray"
-                android:gravity="center"></TextView>
-        </LinearLayout>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:layout_marginTop="0dp"
-            android:orientation="horizontal">
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="110dp"
-                android:background="@drawable/rr_kmhalutama"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="25dp"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btn_pDarurat"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:background="@drawable/ic_warning_black_24dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"></Button>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Panggilan Darurat"
-                    android:textColor="@color/lightGray"
-                    android:gravity="center"></TextView>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="150dp"
-                android:layout_height="110dp"
-                android:layout_marginTop="25dp"
-                android:layout_marginLeft="10dp"
-                android:background="@drawable/rr_kmhalutama"
-                android:orientation="vertical">
-
-                <Button
-                    android:id="@+id/btn_Logout"
-                    android:layout_width="60dp"
-                    android:layout_height="60dp"
-                    android:background="@drawable/ic_exit_to_app_black_24dp"
-                    android:layout_gravity="center"
-                    android:layout_marginTop="10dp"></Button>
-
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:text="Logout"
-                    android:textColor="@color/lightGray"
-                    android:gravity="center"></TextView>
-            </LinearLayout>
-        </LinearLayout>
+        android:orientation="vertical"
+        android:background="@color/colorPurple"
+        tools:context=".HalamanUtamaActivity">
 
         <TextView
+            android:id="@+id/TvJdlHU"
             android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:text="Pusat Informasi Covid 19"
-            android:fontFamily="roboto"
-            android:textColor="@color/colorBlack"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="30dp"></TextView>
+            android:layout_height="wrap_content"
+            android:text="E-ViCo19"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:layout_marginTop="30dp"
+            android:fontFamily="Roboto"
+            android:textSize="16sp"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/TvKetJud"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ayo Kawal Covid 19"
+            android:textColor="@color/lightGray"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="Roboto"
+            android:textSize="13sp"
+            android:gravity="center"/>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:orientation="horizontal">
+            android:layout_height="match_parent"
+            android:background="@drawable/rr_kotakhalutama"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btnSatu"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:background="@drawable/logo_kemenkes">
-            </Button>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:background="@drawable/rr_kotakhalutama"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/rr_kmhalutama"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
 
-            <Button
-                android:id="@+id/btnDua"
-                android:layout_width="50dp"
+                    <Button
+                        android:id="@+id/btn_pEdukasi"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/ic_school_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"></Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Pusat Edukasi"
+                        android:textColor="@color/lightGray"
+                        android:gravity="center"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rr_kmhalutama"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_rsRujukan"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/ic_local_hospital_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"></Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Daftar RS Rujukan"
+                        android:textColor="@color/lightGray"
+                        android:gravity="center"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:orientation="horizontal"
+                android:background="@drawable/rr_kotakhalutama">
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/rr_kmhalutama"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="25dp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_pDarurat"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/ic_warning_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"></Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Panggilan Darurat Covid-19"
+                        android:textColor="@color/lightGray"
+                        android:gravity="center"></TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="150dp"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rr_kmhalutama"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btn_Logout"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/ic_exit_to_app_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"></Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Logout"
+                        android:textColor="@color/lightGray"
+                        android:gravity="center"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:text="Pusat Informasi Covid 19"
+                android:fontFamily="roboto"
+                android:textColor="@color/colorBlack"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="30dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginLeft="30dp"
-                android:background="@drawable/logo_gugus_tugas">
-            </Button>
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:background="@drawable/rr_kotakhalutama">
 
-            <Button
-                android:id="@+id/btnTiga"
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:layout_marginLeft="30dp"
-                android:background="@drawable/logo_bnpb">
-            </Button>
+                <Button
+                    android:id="@+id/btnSatu"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/logo_kemenkes">
+                </Button>
 
+                <Button
+                    android:id="@+id/btnDua"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/logo_gugus_tugas">
+                </Button>
+
+                <Button
+                    android:id="@+id/btnTiga"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/logo_bnpb">
+                </Button>
+
+            </LinearLayout>
         </LinearLayout>
+
+
     </LinearLayout>
-
-
-
-
-
-
-</LinearLayout>
+</ScrollView>
