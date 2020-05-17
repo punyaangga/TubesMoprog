@@ -6,66 +6,69 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml
+8-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml
+9-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-27:19
+11-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-28:19
 12        android:allowBackup="true"
-12-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
+12-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 13-->[androidx.core:core:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:7:9-43
+15-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:7:9-43
 16        android:label="@string/app_name"
-16-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:8:9-41
+16-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:9:9-54
+17-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:9:9-54
 18        android:supportsRtl="true"
-18-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:10:9-35
+18-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:10:9-35
 19        android:testOnly="true"
 20        android:theme="@style/AppTheme" >
-20-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.tubesmoprog.AdminRsRujukan" />
-21-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-61
-21-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-49
-22        <activity android:name="com.example.tubesmoprog.BacaYuk" />
-22-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-45
-22-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-42
-23        <activity android:name="com.example.tubesmoprog.PusatEdukasi" />
-23-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-50
-23-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-47
-24        <activity android:name="com.example.tubesmoprog.DaftarRumahSakit" />
-24-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-54
-24-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-51
-25        <activity android:name="com.example.tubesmoprog.HalamanAwalActivity" />
-25-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-57
-25-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-54
-26        <activity android:name="com.example.tubesmoprog.LoginActivity" />
-26-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:17:9-51
-26-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:17:19-48
-27        <activity android:name="com.example.tubesmoprog.RegisterActivity" />
-27-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:18:9-54
-27-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:18:19-51
-28        <activity android:name="com.example.tubesmoprog.MainActivity" />
-28-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:19:9-50
-28-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:19:19-47
-29        <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" >
-29-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:20:9-26:20
-29-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:20:19-55
-30            <intent-filter>
-30-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:21:13-25:29
-31                <action android:name="android.intent.action.MAIN" />
-31-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:22:17-69
-31-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:22:25-66
-32
-33                <category android:name="android.intent.category.LAUNCHER" />
-33-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:24:17-77
-33-->C:\Users\Angga Fantiya H\Pictures\TubesMoprog\TubesMoprog\app\src\main\AndroidManifest.xml:24:27-74
-34            </intent-filter>
-35        </activity>
-36    </application>
-37
-38</manifest>
+20-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" />
+21-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-67
+21-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-55
+22        <activity android:name="com.example.tubesmoprog.AdminRsRujukan" />
+22-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-52
+22-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-49
+23        <activity android:name="com.example.tubesmoprog.BacaYuk" />
+23-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-45
+23-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-42
+24        <activity android:name="com.example.tubesmoprog.PusatEdukasi" />
+24-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-50
+24-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-47
+25        <activity android:name="com.example.tubesmoprog.DaftarRumahSakit" />
+25-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-54
+25-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-51
+26        <activity android:name="com.example.tubesmoprog.HalamanAwalActivity" />
+26-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:9-57
+26-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:19-54
+27        <activity android:name="com.example.tubesmoprog.LoginActivity" />
+27-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:9-51
+27-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:19-48
+28        <activity android:name="com.example.tubesmoprog.RegisterActivity" />
+28-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:9-54
+28-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:19-51
+29        <activity android:name="com.example.tubesmoprog.MainActivity" />
+29-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:9-50
+29-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:19-47
+30        <activity android:name="com.example.tubesmoprog.SplashScreen" >
+30-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:9-27:20
+30-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:19-47
+31            <intent-filter>
+31-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:13-26:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:17-69
+32-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:17-77
+34-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:27-74
+35            </intent-filter>
+36        </activity>
+37    </application>
+38
+39</manifest>

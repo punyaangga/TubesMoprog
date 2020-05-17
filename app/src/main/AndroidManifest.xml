@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".AdminRsRujukan"></activity>
+        <activity android:name=".HalamanUtamaActivity"></activity>
+        <activity android:name=".AdminRsRujukan" />
         <activity android:name=".BacaYuk" />
         <activity android:name=".PusatEdukasi" />
         <activity android:name=".DaftarRumahSakit" />
@@ -17,7 +18,7 @@
         <activity android:name=".LoginActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".MainActivity" />
-        <activity android:name=".HalamanUtamaActivity">
+        <activity android:name=".SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
