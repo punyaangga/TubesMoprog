@@ -10,17 +10,42 @@ import android.widget.Button;
 
 public class HalamanUtamaActivity extends AppCompatActivity {
     Button btnPDarurat,btnPusatInformasi1,
-            btnPusatInformasi2,getBtnPusatInformasi3;
+            btnPusatInformasi2,btnPusatInformasi3,getBtnPusatInformasi3;
+    Button btnEdukasi,btnRsRujukan,btnLogout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_utama);
-        Button btnPDarurat=(Button) findViewById(R.id.btn_pDarurat);
-        Button btnPusatInformasi1=(Button) findViewById(R.id.btnSatu);
-        Button btnPusatInformasi2=(Button) findViewById(R.id.btnDua);
-        Button btnPusatInformasi3=(Button) findViewById(R.id.btnTiga);
+        btnPDarurat=(Button) findViewById(R.id.btn_pDarurat);
+        btnPusatInformasi1=(Button) findViewById(R.id.btnSatu);
+        btnPusatInformasi2=(Button) findViewById(R.id.btnDua);
+        btnPusatInformasi3=(Button) findViewById(R.id.btnTiga);
+        btnRsRujukan = (Button) findViewById(R.id.btn_rsRujukan);
+        //intent untuk fitur menu menu
+        // Start = fungsi ketika klik button panggilan darurat akan langsung pindah ke kontak telp
+        btnPDarurat.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                String nomor = "119";
+                Intent iTelp = new Intent(Intent.ACTION_VIEW);
+                iTelp.setData(Uri.fromParts("tel",nomor,null));
+                startActivity(iTelp);
+            }
+        });
+        //End = fungsi ketika klik button panggilan darurat akan langsung pindah ke kontak telp
 
+        //Start = fungsi ketika klik button daftar rs akan langsung pindah ke list daftar rs
+        btnRsRujukan.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iRsRujukan = new Intent(getApplicationContext(),DaftarRumahSakit.class);
+                startActivity(iRsRujukan);
+            }
+        });
+        //End = fungsi ketika klik button daftar rs akan langsung pindah ke list daftar rs
+
+        // intent untuk fitur pusat informasi covid 19
         // Start = fungsi ketika klik pusat informasi covid-19 pindah ke web resmi penangangan covid-19
         btnPusatInformasi2.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -57,16 +82,6 @@ public class HalamanUtamaActivity extends AppCompatActivity {
         });
         // End = fungsi ketika klik pusat informasi kemenkes pindah ke web resmi kemenkes
 
-        // Start = fungsi ketika klik button panggilan darurat akan langsung pindah ke kontak telp
-        btnPDarurat.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                String nomor = "119";
-                Intent iTelp = new Intent(Intent.ACTION_VIEW);
-                iTelp.setData(Uri.fromParts("tel",nomor,null));
-                startActivity(iTelp);
-            }
-        });
-        //End = fungsi ketika klik button panggilan darurat akan langsung pindah ke kontak telp
+
     }
 }

@@ -15,27 +15,34 @@ public class DataHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        //table user
-        String user ="create table user (idUser integer primary key autoincrement, nama text null, noTelp text null, email text null,password text null,level text null);";
-        Log.d("Data","onCreate: "+user);
-        db.execSQL(user);
-        //note ditable user ada filed level itu sebagai validasi level jika levelnya admin maka akun tersebut hanya bisa masuk ke halaman admin
-        //dan jika levelnya user maka akun tersebut hanya bisa masuk ke halaman user.
-
-        //insert data untuk admin sebagai akun pertama sebagai admin
-        user ="insert into user (idUser,nama,noTelp,email,password,level) values('','admin','089640065487','admin@evico.com','admin');";
-        db.execSQL(user);
-        //insert data untuk user sebagai akun pertama sebagai user
-        user ="insert into user (idUser,nama,noTelp,email,password,level) values('','user','089640065488','user@evico.com','user');";
-        db.execSQL(user);
 
         //table rumah sakit
-        String rs="crate table rs (idRs integer primary key autoincrement, namaRs text null,noTelpRs text null,alamat text null);";
+        String rs="create table rs (idRs integer primary key autoincrement, namaRs text null,noTelpRs text null,alamat text null);";
         Log.d("Data","onCreate: "+rs);
         db.execSQL(rs);
-        //insert data dummy ke table rumah sakit
-        rs ="insert into rs (idRs,namaRs,noTelpRs,alamat) values('','Hasan Sadikin','(022) 2034953','Jl. Pasteur No.38, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161');";
+        //insert data ke table rumah sakit, data ini diambil dari google
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('Rs.Hasan Sadikin','(022) 2034953','Jl. Pasteur No.38, Pasteur, Kec. Sukajadi, Kota Bandung, Jawa Barat 40161');";
         db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('Rs Paru Dr.H.A. Rotinsulu','(022) 2034446','Jl. Bukit Jarian No.40, Hegarmanah, Kec. Cidadap, Kota Bandung, Jawa Barat 40141');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('Rs Dustira','(022) 6652207','Jl. Dustira No.1, Baros, Kec. Cimahi Tengah, Kota Cimahi, Jawa Barat 40521');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('Rsud Subang','(0260) 411421','Jl. Brigjen Katamso No.37, Dangdeur, Kec. Subang, Kabupaten Subang, Jawa Barat 41211');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('RS Umum Dokter Slamet Garut','(0262) 232720','Jl. Rsu DR. Slamet No.12, Sukakarya, Kec. Tarogong Kidul, Kabupaten Garut, Jawa Barat 44151');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('Rsud R. Syamsudin, SH','(0266) 225180','Jl. Rumah Sakit No.1, Cikole, Kec. Cikole, Kota Sukabumi, Jawa Barat 43113');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('RS Paru Dr. M. Goenawan Partowidigdo','(0251) 8253630','Jl. Raya Puncak - Cianjur KM.83, Cibeureum, Kec. Cisarua, Bogor, Jawa Barat 16750');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('RSUD Sekarwangi Sukabumi','(0266) 531261','Jl. Siliwangi No.49, Cibadak, Kec. Cibadak, Sukabumi Regency, Jawa Barat 43351');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('RSUD RAA Soewondo','(0295) 381102','Jl. Dr. Susanto No.114, Ngipik, Kutoharjo, Kec. Pati, Kabupaten Pati, Jawa Tengah 59111');";
+        db.execSQL(rs);
+        rs ="insert into rs (namaRs,noTelpRs,alamat) values('RSUD Dr Moewardi','(0271) 637415','Jl. Kolonel Sutarto No.132, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126');";
+        db.execSQL(rs);
+
+
 
 
 

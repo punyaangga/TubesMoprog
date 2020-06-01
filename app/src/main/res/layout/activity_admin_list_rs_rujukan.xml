@@ -5,24 +5,24 @@
     android:layout_height="match_parent"
     android:background="@color/colorPurple"
     android:padding="0dp"
-    tools:context=".DaftarRumahSakit">
+    tools:context=".AdminListRsRujukan">
 
     <Button
-        android:id="@+id/btnBack"
+        android:id="@+id/btnAddRs"
         android:layout_width="30dp"
         android:layout_height="30dp"
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
-        android:background="@drawable/ic_arrow_back_black_24dp"></Button>
+        android:background="@drawable/ic_add_black_24dp"></Button>
 
     <TextView
         android:id="@+id/textRS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="31dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/btnBack"
-        android:text="Daftar Rumah Sakit Rujukan"
+        android:layout_toRightOf="@+id/btnAddRs"
+        android:text="List Rumah Sakit Rujukan"
         android:textColor="@color/colorWhite"
         android:textSize="18dp"
         android:textStyle="bold" />
@@ -34,8 +34,7 @@
         android:layout_marginLeft="180dp"
         android:layout_marginTop="40dp"
         android:layout_marginBottom="-62dp"
-        android:fontFamily="Roboto"
-        android:text="E-ViCo"
+        android:text="E-ViCo 19"
         android:textColor="@color/lightGray"
         android:textSize="18dp" />
 
