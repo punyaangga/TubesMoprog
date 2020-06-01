@@ -69,12 +69,12 @@ public class AdminListRsRujukan extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int item) {
                         switch(item){
                             case 0 :
-                                Intent i = new Intent(getApplicationContext(), AdetailRs.class);
+                                Intent i = new Intent(getApplicationContext(), AdminLihatRsRujukan.class);
                                 i.putExtra("namaRs", selection);
                                 startActivity(i);
                                 break;
                             case 1 :
-                                Intent in = new Intent(getApplicationContext(), AUpdateDetailRs.class);
+                                Intent in = new Intent(getApplicationContext(), EditRsRujukan.class);
                                 in.putExtra("namaRs", selection);
                                 startActivity(in);
                                 break;

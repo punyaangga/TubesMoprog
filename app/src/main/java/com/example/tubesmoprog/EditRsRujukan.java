@@ -2,6 +2,7 @@ package com.example.tubesmoprog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -12,56 +13,65 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class EditRsRujukan extends AppCompatActivity {
+    EditText edtUpdateNamaRs,edtUpdateTelp,edtUpdateAlamat,edtUpdateId;
+    Button btnUpdate,btnUpdateKembali;
     protected Cursor cursor;
     DataHelper dbHelper;
-    Button ton1;
-    EditText text1, text2, text3;
-    String edit;
-    TextView textV1, textV2, textV3;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_edit_rs_rujukan);
+
         dbHelper = new DataHelper(this);
-        text1 = (EditText) findViewById(R.id.EtNamaRs);
-        text2 = (EditText) findViewById(R.id.EtNoTelp);
-        text2 = (EditText) findViewById(R.id.EtAlamat);
-        textV1 = (TextView) findViewById(R.id.TVNamaRs);
-        textV2 = (TextView) findViewById(R.id.TVNotelp);
-        textV2 = (TextView) findViewById(R.id.TVAlamat);
+        edtUpdateNamaRs = (EditText) findViewById(R.id.EtUpdateNamaRs);
+        edtUpdateAlamat= (EditText) findViewById(R.id.EtUpdateAlamat);
+        edtUpdateTelp = (EditText) findViewById(R.id.EtUpdateNoTelp);
+        edtUpdateId = (EditText)findViewById(R.id.EtUpdateId);
+        btnUpdate = (Button) findViewById(R.id.btnUpdate);
+        btnUpdateKembali = (Button) findViewById(R.id.btnUpdateKembali);
 
+        //Start = fungsi nampilin data ke form
         SQLiteDatabase db = dbHelper.getReadableDatabase();
-        String getinfo = getIntent().getStringExtra("idRs");
-        String[] pecah = getinfo.split("-");
-        cursor = db.rawQuery("SELECT * FROM rs WHERE idRs ='" + pecah[0] + "'", null);
+        String getInfo = getIntent().getStringExtra("namaRs");
+        cursor = db.rawQuery("SELECT * FROM rs WHERE namaRs = '"+getInfo+"'",null);
         cursor.moveToFirst();
-        if (cursor.getCount() > 0) {
+        if (cursor.getCount()>0){
             cursor.moveToPosition(0);
-            text1.setText(cursor.getString(0).toString());
-            text2.setText(cursor.getString(1).toString());
-            text3.setText(cursor.getString(2).toString());
-
+            edtUpdateId.setText(cursor.getString(0).toString());
+            edtUpdateNamaRs.setText(cursor.getString(1).toString());
+            edtUpdateTelp.setText(cursor.getString(2).toString());
+            edtUpdateAlamat.setText(cursor.getString(3).toString());
         }
-        ton1 = (Button) findViewById(R.id.btnSimpan);
-        ton1.setOnClickListener(new View.OnClickListener() {
+        //Finish = fungsi nampilin data ke form
+
+        // start = fungsi update data
+        btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {
-                SQLiteDatabase db = dbHelper.getWritableDatabase();
-                edit = text1.getText().toString();
-                edit = text2.getText().toString();
-                edit = text3.getText().toString();
-
-                if (edit.isEmpty()) {
-                    Toast.makeText(getApplicationContext(), "Kolom tidak boleh kosong...", Toast.LENGTH_SHORT).show();
-                } else {
-                    db.execSQL("update rs set noTelpRs='"+text2.getText().toString()+"',alamat='"+text3.getText().toString()+"'where namaRs='"+text1.getText().toString()+"'");
-                    Toast.makeText(getApplicationContext(),"Perubaan Tersimpan...",Toast.LENGTH_LONG).show();
-                    finish();
-                }
-                MainActivity.da.RefreshList();
+                SQLiteDatabase db = dbHelper.getReadableDatabase();
+                db.execSQL("update rs set namaRs ='"+
+                        edtUpdateNamaRs.getText().toString()+"', noTelpRs ='"+
+                        edtUpdateTelp.getText().toString()+"', alamat = '"+
+                        edtUpdateAlamat.getText().toString()+"' where idRs = '"+
+                        edtUpdateId.getText().toString()+"'");
+                Toast.makeText(getApplicationContext(), "Data Berhasil di Perbarui", Toast.LENGTH_SHORT).show();
+                AdminListRsRujukan.ma.RefreshList();
+                finish();
             }
         });
+        // finish = fungsi updat data
+
+        //Start =  fungsi ketika klik button pindah ke List RS Rujukan
+        btnUpdateKembali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iBackList = new Intent(getApplicationContext(),AdminListRsRujukan.class);
+                startActivity(iBackList);
+            }
+        });
+        //Finish =  fungsi ketika klik button pindah ke List RS Rujukan
+
     }
 }
 

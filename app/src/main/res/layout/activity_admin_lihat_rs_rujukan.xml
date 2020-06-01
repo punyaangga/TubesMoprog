@@ -58,13 +58,14 @@
                     android:textColor="@color/colorPurple"></TextView>
 
                 <EditText
-                    android:id="@+id/EtNamaRs"
+                    android:id="@+id/EtLihatNamaRs"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
+                    android:hint="Masukkan Nama RS"
                     android:inputType="text"
                     android:paddingLeft="5dp" />
 
@@ -75,16 +76,18 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:text="No Telp"
-                    android:textColor="@color/colorPurple"></TextView>
+                    android:textColor="@color/colorPurple"
+                    android:enabled="false"></TextView>
 
                 <EditText
-                    android:id="@+id/EtNoTelp"
+                    android:id="@+id/EtLihatNoTelp"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
+                    android:hint="Masukkan No Telpon"
                     android:inputType="number"
                     android:paddingLeft="5dp" />
 
@@ -98,13 +101,15 @@
                     android:textColor="@color/colorPurple"></TextView>
 
                 <EditText
-                    android:id="@+id/EtAlamat"
+                    android:id="@+id/EtLihatAlamat"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
+
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
+                    android:hint="Masukkan Alamat"
                     android:inputType="text|textMultiLine"
                     android:paddingLeft="5dp" />
 

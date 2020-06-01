@@ -42,11 +42,32 @@
 
             <LinearLayout
                 android:layout_width="280dp"
-                android:layout_height="447dp"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rr_kotaklogin"
                 android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TVUpdateId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Id Rs"
+                    android:textColor="@color/colorPurple"></TextView>
+
+                <EditText
+                    android:id="@+id/EtUpdateId"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_etstyle"
+                    android:enabled="false"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
 
                 <TextView
                     android:id="@+id/TVNamaRs"
@@ -58,13 +79,14 @@
                     android:textColor="@color/colorPurple"></TextView>
 
                 <EditText
-                    android:id="@+id/EtNamaRs"
+                    android:id="@+id/EtUpdateNamaRs"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
+                    android:hint="Masukkan Nama RS"
                     android:inputType="text"
                     android:paddingLeft="5dp" />
 
@@ -75,16 +97,18 @@
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
                     android:text="No Telp"
-                    android:textColor="@color/colorPurple"></TextView>
+                    android:textColor="@color/colorPurple"
+                    android:enabled="false"></TextView>
 
                 <EditText
-                    android:id="@+id/EtNoTelp"
+                    android:id="@+id/EtUpdateNoTelp"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
+                    android:hint="Masukkan No Telpon"
                     android:inputType="number"
                     android:paddingLeft="5dp" />
 
@@ -98,19 +122,21 @@
                     android:textColor="@color/colorPurple"></TextView>
 
                 <EditText
-                    android:id="@+id/EtAlamat"
+                    android:id="@+id/EtUpdateAlamat"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
+
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
+                    android:hint="Masukkan Alamat"
                     android:inputType="text|textMultiLine"
                     android:paddingLeft="5dp" />
 
 
                 <Button
-                    android:id="@+id/btnSimpan"
+                    android:id="@+id/btnUpdate"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"
@@ -121,7 +147,7 @@
                     android:textColor="@color/colorWhite"></Button>
 
                 <Button
-                    android:id="@+id/btnBack"
+                    android:id="@+id/btnUpdateKembali"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"
@@ -129,7 +155,8 @@
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_buttonstyle3"
                     android:text="Back"
-                    android:textColor="@color/colorWhite"></Button>
+                    android:textColor="@color/colorWhite"
+                    android:layout_marginBottom="10dp"></Button>
             </LinearLayout>
 
 
