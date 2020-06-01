@@ -9,9 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DaftarRumahSakit"></activity>
-        <activity android:name=".HalamanUtamaActivity" />
+        <activity android:name=".AdminListKontenEdukasi"></activity>
         <activity android:name=".AdminListRsRujukan" />
+        <activity android:name=".AdminLihatEdukasi" />
+        <activity android:name=".AdminEditEdukasi" />
+        <activity android:name=".AdminLihatRsRujukan" />
+        <activity android:name=".EditRsRujukan" />
+        <activity android:name=".AdminKontenEdukasi" />
+        <activity android:name=".DaftarRumahSakit" />
+        <activity android:name=".HalamanUtamaActivity" />
         <activity android:name=".BacaYuk" />
         <activity android:name=".PusatEdukasi" />
         <activity android:name=".AdminRsRujukan" />

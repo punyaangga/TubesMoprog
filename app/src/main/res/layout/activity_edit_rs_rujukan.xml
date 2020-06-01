@@ -1,9 +1,139 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EditRsRujukan">
+    android:layout_width="match_parent"
+    android:background="#7966FE">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#7966FE"
+        tools:context=".EditRsRujukan">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="0dp">
+            <TextView
+                android:id="@+id/TvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Update Daftar Rumah Sakit Rujukan"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="5dp"
+                android:textColor="#FFFFFF">
+            </TextView>
+
+            <TextView
+                android:id="@+id/TvTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="E-Vico19"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="#FFFFFF">
+            </TextView>
+
+
+            <LinearLayout
+                android:layout_width="280dp"
+                android:layout_height="447dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rr_kotaklogin"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TVNamaRs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="Nama Rumah Sakit"
+                    android:textColor="@color/colorPurple"></TextView>
+
+                <EditText
+                    android:id="@+id/EtNamaRs"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_etstyle"
+                    android:inputType="text"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/TVNotelp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="No Telp"
+                    android:textColor="@color/colorPurple"></TextView>
+
+                <EditText
+                    android:id="@+id/EtNoTelp"
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_etstyle"
+                    android:inputType="number"
+                    android:paddingLeft="5dp" />
+
+                <TextView
+                    android:id="@+id/TVAlamat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Alamat"
+                    android:textColor="@color/colorPurple"></TextView>
+
+                <EditText
+                    android:id="@+id/EtAlamat"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_etstyle"
+                    android:inputType="text|textMultiLine"
+                    android:paddingLeft="5dp" />
+
+
+                <Button
+                    android:id="@+id/btnSimpan"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_buttonsttyle"
+                    android:text="Update"
+                    android:textColor="@color/colorWhite"></Button>
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_buttonstyle3"
+                    android:text="Back"
+                    android:textColor="@color/colorWhite"></Button>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

@@ -42,7 +42,7 @@
 
             <LinearLayout
                 android:layout_width="280dp"
-                android:layout_height="340dp"
+                android:layout_height="414dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rr_kotaklogin"
@@ -120,7 +120,18 @@
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_buttonsttyle"
-                    android:text="Simpan"
+                    android:text="Save"
+                    android:textColor="@color/colorWhite"></Button>
+
+                <Button
+                    android:id="@+id/btnBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/rr_buttonstyle3"
+                    android:text="Back"
                     android:textColor="@color/colorWhite"></Button>
             </LinearLayout>
 
