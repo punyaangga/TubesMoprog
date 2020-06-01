@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#7966FE"
-    tools:context=".AdminRsRujukan">
+    android:background="#7966FE">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="#7966FE"
-        >
+        tools:context=".LoginActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -18,10 +18,10 @@
             android:orientation="vertical"
             android:paddingTop="0dp">
             <TextView
-                android:id="@+id/TvTitle"
+                android:id="@+id/TvTitleKE"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tambah Daftar Rumah Sakit Rujukan"
+                android:text="Buat Konten Edukasi"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:layout_gravity="center"
@@ -42,78 +42,56 @@
 
             <LinearLayout
                 android:layout_width="280dp"
-                android:layout_height="414dp"
+                android:layout_height="359dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rr_kotaklogin"
                 android:orientation="vertical">
 
                 <TextView
-                    android:id="@+id/TVNamaRs"
+                    android:id="@+id/TVJdlKonten"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="15dp"
-                    android:text="Nama Rumah Sakit"
+                    android:text="Judul Konten"
                     android:textColor="@color/colorPurple"></TextView>
 
                 <EditText
-                    android:id="@+id/EtNamaRs"
+                    android:id="@+id/EtJdlKonten"
                     android:layout_width="match_parent"
                     android:layout_height="30dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
-                    android:hint="Masukkan Nama RS"
+                    android:hint="Masukkan Judul Konten"
                     android:inputType="text"
                     android:paddingLeft="5dp" />
 
                 <TextView
-                    android:id="@+id/TVNotelp"
+                    android:id="@+id/TvIsiKonten"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="10dp"
-                    android:text="No Telp"
+                    android:text="Isi Konten"
                     android:textColor="@color/colorPurple"></TextView>
 
                 <EditText
-                    android:id="@+id/EtNoTelp"
-                    android:layout_width="match_parent"
-                    android:layout_height="30dp"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginRight="20dp"
-                    android:background="@drawable/rr_etstyle"
-                    android:hint="Masukkan No Telpon"
-                    android:inputType="number"
-                    android:paddingLeft="5dp" />
-
-                <TextView
-                    android:id="@+id/TVAlamat"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="20dp"
-                    android:layout_marginTop="10dp"
-                    android:text="Alamat"
-                    android:textColor="@color/colorPurple"></TextView>
-
-                <EditText
-                    android:id="@+id/EtAlamat"
+                    android:id="@+id/EtIsiKonten"
                     android:layout_width="match_parent"
                     android:layout_height="100dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
-                    android:hint="Masukkan Alamat"
+                    android:hint="Isi Konten"
                     android:inputType="text|textMultiLine"
                     android:paddingLeft="5dp" />
 
-
                 <Button
-                    android:id="@+id/btnSimpanRs"
+                    android:id="@+id/btnSimpan"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"

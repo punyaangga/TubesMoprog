@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_height="match_parent"
     android:layout_width="match_parent"
-    android:background="#7966FE"
-    tools:context=".AdminRsRujukan">
+    android:background="#7966FE">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:background="#7966FE"
-        >
+        tools:context=".EditRsRujukan">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -21,7 +21,7 @@
                 android:id="@+id/TvTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Tambah Daftar Rumah Sakit Rujukan"
+                android:text="Update Daftar Rumah Sakit Rujukan"
                 android:textStyle="bold"
                 android:textSize="20dp"
                 android:layout_gravity="center"
@@ -42,7 +42,7 @@
 
             <LinearLayout
                 android:layout_width="280dp"
-                android:layout_height="414dp"
+                android:layout_height="447dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
                 android:background="@drawable/rr_kotaklogin"
@@ -65,7 +65,6 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
-                    android:hint="Masukkan Nama RS"
                     android:inputType="text"
                     android:paddingLeft="5dp" />
 
@@ -86,7 +85,6 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
-                    android:hint="Masukkan No Telpon"
                     android:inputType="number"
                     android:paddingLeft="5dp" />
 
@@ -107,20 +105,19 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_etstyle"
-                    android:hint="Masukkan Alamat"
                     android:inputType="text|textMultiLine"
                     android:paddingLeft="5dp" />
 
 
                 <Button
-                    android:id="@+id/btnSimpanRs"
+                    android:id="@+id/btnSimpan"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="20dp"
                     android:background="@drawable/rr_buttonsttyle"
-                    android:text="Save"
+                    android:text="Update"
                     android:textColor="@color/colorWhite"></Button>
 
                 <Button
