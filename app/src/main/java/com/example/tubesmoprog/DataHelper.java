@@ -42,6 +42,13 @@ public class DataHelper extends SQLiteOpenHelper {
         rs ="insert into rs (namaRs,noTelpRs,alamat) values('RSUD Dr Moewardi','(0271) 637415','Jl. Kolonel Sutarto No.132, Jebres, Kec. Jebres, Kota Surakarta, Jawa Tengah 57126');";
         db.execSQL(rs);
 
+        //table konten edukasi
+        String edukasi="create table edukasi (idEdukasi integer primary key autoincrement, judulKonten text null,isiKonten text null);";
+        Log.d("Data","onCreate: "+edukasi);
+        db.execSQL(edukasi);
+
+        edukasi = "insert into edukasi (judulKonten,isiKonten) values('Tips Keluar Rumah','Sebelum keluar rumah harus memakai masker');";
+        db.execSQL(edukasi);
 
 
 

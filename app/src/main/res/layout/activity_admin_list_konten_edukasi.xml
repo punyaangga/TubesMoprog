@@ -48,7 +48,7 @@
                 android:orientation="vertical">
 
                 <ListView
-                    android:id="@+id/listView1"
+                    android:id="@+id/lvEdukasi"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_above="@+id/button2"
@@ -63,7 +63,7 @@
             </LinearLayout>
 
             <Button
-                android:id="@+id/btnBack"
+                android:id="@+id/btnAddEdukasi"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginLeft="20dp"

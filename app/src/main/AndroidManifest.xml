@@ -12,6 +12,7 @@
         <activity android:name=".AdminListRsRujukan"></activity>
         <activity android:name=".AdminLihatRsRujukan" />
         <activity android:name=".EditRsRujukan" />
+        <activity android:name=".AdminListKontenEdukasi" />
         <activity android:name=".DaftarRumahSakit" />
         <activity android:name=".HalamanUtamaActivity" />
         <activity android:name=".DashboardAdmin" />

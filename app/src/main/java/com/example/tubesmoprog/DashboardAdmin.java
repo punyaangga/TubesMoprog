@@ -23,5 +23,12 @@ public class DashboardAdmin extends AppCompatActivity {
                 startActivity(iListRs);
             }
         });
+        btnAdminKonten.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iListKonten = new Intent(getApplicationContext(),AdminListKontenEdukasi.class);
+                startActivity(iListKonten);
+            }
+        });
     }
 }
