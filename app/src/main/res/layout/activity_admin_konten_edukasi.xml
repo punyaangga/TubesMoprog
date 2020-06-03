@@ -91,7 +91,7 @@
                     android:paddingLeft="5dp" />
 
                 <Button
-                    android:id="@+id/btnSimpan"
+                    android:id="@+id/btnSimpanKonten"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"

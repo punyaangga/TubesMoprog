@@ -19,9 +19,11 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.example.tubesmoprog.AdminListRsRujukan" />
-        <activity android:name="com.example.tubesmoprog.AUpdateDetailRs" />
         <activity android:name="com.example.tubesmoprog.AdminLihatRsRujukan" />
         <activity android:name="com.example.tubesmoprog.EditRsRujukan" />
+        <activity android:name="com.example.tubesmoprog.AdminEditEdukasi" />
+        <activity android:name="com.example.tubesmoprog.AdminListKontenEdukasi" />
+        <activity android:name="com.example.tubesmoprog.AdminKontenEdukasi" />
         <activity android:name="com.example.tubesmoprog.DaftarRumahSakit" />
         <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" />
         <activity android:name="com.example.tubesmoprog.DashboardAdmin" />

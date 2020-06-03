@@ -28,6 +28,16 @@ public class AdminListKontenEdukasi extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_list_konten_edukasi);
+        btnAddEdukasi = (Button) findViewById(R.id.btnAddEdukasi);
+
+
+        btnAddEdukasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+                Intent iEdukuas = new Intent(AdminListKontenEdukasi.this,AdminKontenEdukasi.class);
+                startActivity(iEdukuas);
+            }
+        });
 
         ke = this; //nambahin ini
         dbcenter = new DataHelper(this);
@@ -65,9 +75,9 @@ public class AdminListKontenEdukasi extends AppCompatActivity {
 //                                startActivity(i);
                                 break;
                             case 1 :
-//                                Intent in = new Intent(getApplicationContext(), EditRsRujukan.class);
-//                                in.putExtra("namaRs", selection);
-//                                startActivity(in);
+                                Intent in = new Intent(getApplicationContext(), AdminEditEdukasi.class);
+                                in.putExtra("judulKonten", selection);
+                                startActivity(in);
                                 break;
                             case 2 :
 //                                SQLiteDatabase db= dbcenter.getWritableDatabase();
