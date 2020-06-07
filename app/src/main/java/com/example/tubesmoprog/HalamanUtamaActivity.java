@@ -9,8 +9,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class HalamanUtamaActivity extends AppCompatActivity {
-    Button btnPDarurat,btnPusatInformasi1,
-            btnPusatInformasi2,btnPusatInformasi3,getBtnPusatInformasi3;
+    Button btnPDarurat,btnPusatInformasi1, btnPusatInformasi2,btnPusatInformasi3,getBtnPusatInformasi3;
     Button btnEdukasi,btnRsRujukan,btnLogout;
 
     @Override
@@ -21,7 +20,10 @@ public class HalamanUtamaActivity extends AppCompatActivity {
         btnPusatInformasi1=(Button) findViewById(R.id.btnSatu);
         btnPusatInformasi2=(Button) findViewById(R.id.btnDua);
         btnPusatInformasi3=(Button) findViewById(R.id.btnTiga);
+        btnLogout = (Button) findViewById(R.id.btn_Logout);
+        btnEdukasi = (Button) findViewById(R.id.btn_pEdukasi);
         btnRsRujukan = (Button) findViewById(R.id.btn_rsRujukan);
+
         //intent untuk fitur menu menu
         // Start = fungsi ketika klik button panggilan darurat akan langsung pindah ke kontak telp
         btnPDarurat.setOnClickListener(new View.OnClickListener(){
@@ -82,6 +84,13 @@ public class HalamanUtamaActivity extends AppCompatActivity {
         });
         // End = fungsi ketika klik pusat informasi kemenkes pindah ke web resmi kemenkes
 
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iLogout = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(iLogout);
+            }
+        });
 
     }
 }

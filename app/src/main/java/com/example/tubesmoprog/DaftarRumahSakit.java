@@ -18,7 +18,8 @@ import android.widget.ListView;
 public class DaftarRumahSakit extends AppCompatActivity {
     String[] daftar;
     ListView ListView01;
-    Menu menu;
+    //Menu menu;
+
     protected Cursor cursor;
     DataHelper dbcenter;
     public static DaftarRumahSakit da;
@@ -28,20 +29,21 @@ public class DaftarRumahSakit extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar_rumah_sakit);
-//        btnBack=(Button) findViewById(R.id.btnBack);
-//        btnBack.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View arg0) {
-//                Intent inte = new Intent(DaftarRumahSakit.this, AdminRsRujukan.class);
-//                startActivity(inte);
-//            }
-//        });
+        btnBack=(Button) findViewById(R.id.btnBack);
+        btnBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View arg0) {
+               Intent inte = new Intent(getApplicationContext(), HalamanUtamaActivity.class);
+                startActivity(inte);
+            }
+        });
+
         da = this; //nambahin ini
         dbcenter = new DataHelper(this);
         RefreshList();
     }
 
-    public void RefreshList() {
+    protected void RefreshList() {
         SQLiteDatabase db = dbcenter.getReadableDatabase();
         cursor = db.rawQuery("SELECT * FROM rs", null);
         daftar = new String[cursor.getCount()];
@@ -55,5 +57,3 @@ public class DaftarRumahSakit extends AppCompatActivity {
 
     }
 }
-
-

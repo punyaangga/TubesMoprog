@@ -8,13 +8,14 @@ import android.view.View;
 import android.widget.Button;
 
 public class DashboardAdmin extends AppCompatActivity {
-    Button btnAdminRsRujukan,btnAdminKonten;
+    Button btnAdminRsRujukan,btnAdminKonten,btnKeluar;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard_admin);
         btnAdminRsRujukan=(Button)findViewById(R.id.btn_AdminRsRujukan);
         btnAdminKonten = (Button) findViewById(R.id.btn_AdminEdukasi);
+        btnKeluar = (Button) findViewById(R.id.btn_Logout);
 
         btnAdminRsRujukan.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,14 @@ public class DashboardAdmin extends AppCompatActivity {
             public void onClick(View v) {
                 Intent iListKonten = new Intent(getApplicationContext(),AdminListKontenEdukasi.class);
                 startActivity(iListKonten);
+            }
+        });
+
+        btnKeluar.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iLogout = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(iLogout);
             }
         });
     }
