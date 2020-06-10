@@ -9,6 +9,7 @@ import android.widget.Button;
 
 public class DashboardAdmin extends AppCompatActivity {
     Button btnAdminRsRujukan,btnAdminKonten;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,4 +32,13 @@ public class DashboardAdmin extends AppCompatActivity {
             }
         });
     }
+    public  void PindahEdukasi(View v){
+        Intent iListKonten = new Intent(getApplicationContext(),AdminListKontenEdukasi.class);
+        startActivity(iListKonten);
+    }
+    public  void PindahRs(View v){
+        Intent iListKonten = new Intent(getApplicationContext(),AdminListKontenEdukasi.class);
+        startActivity(iListKonten);
+    }
+
 }

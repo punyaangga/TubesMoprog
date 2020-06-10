@@ -70,9 +70,9 @@ public class AdminListKontenEdukasi extends AppCompatActivity {
                     public void onClick(DialogInterface dialog, int item) {
                         switch(item){
                             case 0 :
-//                                Intent i = new Intent(getApplicationContext(), AdminLihatRsRujukan.class);
-//                                i.putExtra("namaRs", selection);
-//                                startActivity(i);
+                                Intent i = new Intent(getApplicationContext(), AdminLihatEdukasi.class);
+                                i.putExtra("judulKonten", selection);
+                                startActivity(i);
                                 break;
                             case 1 :
                                 Intent in = new Intent(getApplicationContext(), AdminEditEdukasi.class);
@@ -80,9 +80,9 @@ public class AdminListKontenEdukasi extends AppCompatActivity {
                                 startActivity(in);
                                 break;
                             case 2 :
-//                                SQLiteDatabase db= dbcenter.getWritableDatabase();
-//                                db.execSQL("delete from rs where namaRs = '"+selection+"'");
-//                                RefreshList();
+                                SQLiteDatabase db= dbcenter.getWritableDatabase();
+                                db.execSQL("delete from edukasi where judulKonten = '"+selection+"'");
+                                RefreshList();
                                 break;
                         }
                     }

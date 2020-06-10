@@ -22,20 +22,21 @@ public class DaftarRumahSakit extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbcenter;
     public static DaftarRumahSakit da;
-    Button btnBack;
+    Button btnBackRes;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_daftar_rumah_sakit);
-//        btnBack=(Button) findViewById(R.id.btnBack);
-//        btnBack.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View arg0) {
-//                Intent inte = new Intent(DaftarRumahSakit.this, AdminRsRujukan.class);
-//                startActivity(inte);
-//            }
-//        });
+        btnBackRes = (Button) findViewById(R.id.btnBackRs);
+        btnBackRes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent kembali = new Intent(getApplicationContext(),HalamanUtamaActivity.class);
+                startActivity(kembali);
+            }
+        });
+
         da = this; //nambahin ini
         dbcenter = new DataHelper(this);
         RefreshList();

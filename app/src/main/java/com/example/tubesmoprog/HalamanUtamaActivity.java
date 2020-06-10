@@ -18,11 +18,22 @@ public class HalamanUtamaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_halaman_utama);
         btnPDarurat=(Button) findViewById(R.id.btn_pDarurat);
+        btnEdukasi=(Button)findViewById(R.id.btn_pEdukasi);
         btnPusatInformasi1=(Button) findViewById(R.id.btnSatu);
         btnPusatInformasi2=(Button) findViewById(R.id.btnDua);
         btnPusatInformasi3=(Button) findViewById(R.id.btnTiga);
         btnRsRujukan = (Button) findViewById(R.id.btn_rsRujukan);
+        btnLogout = (Button) findViewById(R.id.btn_LogoutUser);
         //intent untuk fitur menu menu
+        // Start = fungsi ketika klik button Edukasi akan pindah ke list view
+        btnEdukasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iEdukasi=new Intent(getApplicationContext(),LihatPusatEdukasi.class);
+                startActivity(iEdukasi);
+            }
+        });
+        // Finish =fungsi ketika klik button Edukasi akan pindah ke list view
         // Start = fungsi ketika klik button panggilan darurat akan langsung pindah ke kontak telp
         btnPDarurat.setOnClickListener(new View.OnClickListener(){
             @Override
@@ -82,6 +93,18 @@ public class HalamanUtamaActivity extends AppCompatActivity {
         });
         // End = fungsi ketika klik pusat informasi kemenkes pindah ke web resmi kemenkes
 
+        //Start = Fungsi Logout
+        btnLogout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ilogout = new Intent(getApplicationContext(),LoginActivity.class);
+                startActivity(ilogout);
+            }
+        });
 
     }
+    public void Exit(){
+        finish();
+    }
+    //End = Fungsi Logout
 }

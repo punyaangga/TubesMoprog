@@ -8,42 +8,44 @@
     tools:context=".DaftarRumahSakit">
 
     <Button
-        android:id="@+id/btnBackRs"
+        android:id="@+id/btnBackListEdukasi"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         android:background="@drawable/ic_arrow_back_black_24dp"></Button>
 
     <TextView
-        android:id="@+id/textRS"
+        android:id="@+id/textEdukasi"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
-        android:text="Daftar Rumah Sakit Rujukan"
+        android:text="Pusat Edukasi"
+        android:layout_centerHorizontal="true"
         android:textColor="@color/colorWhite"
-        android:textSize="18dp"
+        android:textSize="20dp"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/vico"
         android:layout_width="60dp"
         android:layout_height="42dp"
-        android:layout_below="@+id/textRS"
-        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textEdukasi"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="10dp"
         android:text="E-ViCo"
+        android:layout_centerHorizontal="true"
         android:textColor="@color/lightGray"
-        android:textSize="18dp"
-        android:layout_centerHorizontal="true"/>
+        android:textSize="18dp" />
 
     <ListView
-
-        android:id="@+id/listView1"
-        android:layout_below="@+id/vico"
+        android:id="@+id/listViewEdukasi"
+        android:layout_below="@+id/textEdukasi"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
         android:background="@color/colorWhite">
 
     </ListView>

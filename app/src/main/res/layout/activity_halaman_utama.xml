@@ -21,7 +21,6 @@
             android:textStyle="bold"
             android:textColor="@color/colorWhite"
             android:layout_marginTop="30dp"
-            android:fontFamily="Roboto"
             android:textSize="16sp"
             android:gravity="center"/>
 
@@ -32,7 +31,6 @@
             android:text="Ayo Kawal Covid 19"
             android:textColor="@color/lightGray"
             android:layout_marginBottom="30dp"
-            android:fontFamily="Roboto"
             android:textSize="13sp"
             android:gravity="center"/>
 
@@ -140,7 +138,7 @@
                     android:orientation="vertical">
 
                     <Button
-                        android:id="@+id/btn_Logout"
+                        android:id="@+id/btn_LogoutUser"
                         android:layout_width="60dp"
                         android:layout_height="60dp"
                         android:background="@drawable/ic_exit_to_app_black_24dp"

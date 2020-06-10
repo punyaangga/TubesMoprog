@@ -124,7 +124,7 @@
                     android:textColor="@color/colorWhite"></Button>
 
                 <Button
-                    android:id="@+id/btnBack"
+                    android:id="@+id/btnBackk"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"

@@ -4,36 +4,29 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorPurple"
-    android:padding="0dp"
+    android:padding="20dp"
     tools:context=".AdminListRsRujukan">
 
-    <Button
-        android:id="@+id/btnAddRs"
-        android:layout_width="30dp"
-        android:layout_height="30dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/ic_add_black_24dp"></Button>
 
     <TextView
         android:id="@+id/textRS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="20dp"
-        android:layout_toRightOf="@+id/btnAddRs"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:text="List Rumah Sakit Rujukan"
         android:textColor="@color/colorWhite"
         android:textSize="18dp"
         android:textStyle="bold" />
 
     <TextView
-        android:layout_width="60dp"
-        android:layout_height="42dp"
-        android:layout_above="@+id/textRS"
-        android:layout_marginLeft="180dp"
-        android:layout_marginTop="40dp"
-        android:layout_marginBottom="-62dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
         android:text="E-ViCo 19"
         android:textColor="@color/lightGray"
         android:textSize="18dp" />
@@ -42,13 +35,21 @@
         android:id="@+id/listView1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
         android:layout_marginTop="72dp"
-        android:background="@color/colorWhite">
+        android:background="@drawable/rr_kotaklogin">
 
     </ListView>
+
+    <Button
+        android:id="@+id/btnAddRs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Add Data"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/rr_buttonstyle3"/>
 
 </RelativeLayout>
 

@@ -41,6 +41,7 @@
         android:text="E-ViCo"
         android:textColor="@color/lightGray"
         android:textSize="18dp" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"

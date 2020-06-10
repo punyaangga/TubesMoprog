@@ -21,7 +21,6 @@
             android:textStyle="bold"
             android:textColor="@color/colorWhite"
             android:layout_marginTop="30dp"
-            android:fontFamily="Roboto"
             android:textSize="16sp"
             android:gravity="center"/>
 
@@ -32,10 +31,11 @@
             android:text="Dashboard Admin"
             android:textColor="@color/lightGray"
             android:layout_marginBottom="30dp"
-            android:fontFamily="Roboto"
             android:textSize="13sp"
             android:gravity="center"/>
-
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -44,15 +44,18 @@
             android:orientation="vertical">
 
             <LinearLayout
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:padding="25dp"
                 android:layout_gravity="center"
                 android:background="@drawable/rr_kotakhalutama"
-                android:orientation="horizontal">
+                android:orientation="vertical">
                 <LinearLayout
-                    android:layout_width="125dp"
+                    android:id="@+id/menu1"
+                    android:onClick="PindahEdukasi"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
                     android:background="@drawable/rr_kmhalutama"
                     android:layout_marginTop="30dp"
@@ -78,8 +81,9 @@
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="125dp"
+                    android:layout_width="match_parent"
                     android:layout_height="150dp"
+                    android:onClick="PindahRs"
                     android:layout_marginTop="30dp"
                     android:layout_marginLeft="10dp"
                     android:background="@drawable/rr_kmhalutama"
@@ -100,22 +104,11 @@
                         android:text="Kelola RS Rujukan"
                         android:textColor="@color/lightGray"></TextView>
                 </LinearLayout>
-            </LinearLayout>
-
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="0dp"
-                android:orientation="horizontal"
-                android:padding="25dp"
-                android:background="@drawable/rr_kotakhalutama">
-
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
-                    android:layout_marginLeft="10dp"
+                   android:layout_marginTop="30dp"
                     android:background="@drawable/rr_kmhalutama"
                     android:orientation="vertical">
 
@@ -134,12 +127,16 @@
                         android:textColor="@color/lightGray"
                         android:gravity="center"></TextView>
                 </LinearLayout>
+
             </LinearLayout>
 
 
 
-        </LinearLayout>
 
+
+
+        </LinearLayout>
+</ScrollView>
 
     </LinearLayout>
 </ScrollView>

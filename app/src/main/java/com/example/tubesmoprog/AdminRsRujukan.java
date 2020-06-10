@@ -2,6 +2,7 @@ package com.example.tubesmoprog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -13,7 +14,7 @@ import android.widget.Toast;
 public class AdminRsRujukan extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbHelper;
-    Button btnSimpanRs;
+    Button btnSimpanRs,btnKembali;
     EditText edtNamaRs,edtTelp,edtAlamat;
     String simpan;
 
@@ -28,6 +29,15 @@ public class AdminRsRujukan extends AppCompatActivity {
         edtTelp=(EditText) findViewById(R.id.EtNoTelp);
         edtAlamat=(EditText) findViewById(R.id.EtAlamat);
         btnSimpanRs=(Button) findViewById(R.id.btnSimpanRs);
+        btnKembali =(Button) findViewById(R.id.btnBackk);
+
+        btnKembali.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iKembali = new Intent(getApplicationContext(),AdminListRsRujukan.class);
+                startActivity(iKembali);
+            }
+        });
 
         btnSimpanRs.setOnClickListener(new View.OnClickListener() {
             @Override
