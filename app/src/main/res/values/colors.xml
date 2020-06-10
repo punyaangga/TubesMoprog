@@ -11,5 +11,7 @@
     <color name="lightGray">#F7F6FB</color>
     <color name="biruMuda">#09c6df</color>
     <color name="biruTua">#0bcce6</color>
+    <color name="colorViolet">#846C98</color>
+    <color name="colorblue">#98a2eb</color>
 
 </resources>
