@@ -19,6 +19,8 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.tubesmoprog.ProfileAngga" />
+        <activity android:name="com.example.tubesmoprog.SplashScreen" />
         <activity android:name="com.example.tubesmoprog.LihatPusatEdukasi" />
         <activity android:name="com.example.tubesmoprog.AdminListRsRujukan" />
         <activity android:name="com.example.tubesmoprog.AdminLihatRsRujukan" />
@@ -37,7 +39,7 @@
         <activity android:name="com.example.tubesmoprog.LoginActivity" />
         <activity android:name="com.example.tubesmoprog.RegisterActivity" />
         <activity android:name="com.example.tubesmoprog.MainActivity" />
-        <activity android:name="com.example.tubesmoprog.SplashScreen" >
+        <activity android:name="com.example.tubesmoprog.infoProfile" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

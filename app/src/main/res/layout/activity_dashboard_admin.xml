@@ -104,8 +104,33 @@
                         android:text="Kelola RS Rujukan"
                         android:textColor="@color/lightGray"></TextView>
                 </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:onClick="Profile"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="@drawable/rr_kmhalutama"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/btnProfile"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/ic_developer_mode_black_24dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"></Button>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="Profile Pembuat Aplikasi"
+                        android:textColor="@color/lightGray"></TextView>
+                </LinearLayout>
 
                 <LinearLayout
+                    android:onClick="Logout"
                     android:layout_width="match_parent"
                     android:layout_height="150dp"
                    android:layout_marginTop="30dp"

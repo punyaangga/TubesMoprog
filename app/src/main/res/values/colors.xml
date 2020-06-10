@@ -9,4 +9,7 @@
     <color name="colorWhite">#FFFFFF</color>
     <color name="colorBackground">#E5E5E5</color>
     <color name="lightGray">#F7F6FB</color>
+    <color name="biruMuda">#09c6df</color>
+    <color name="biruTua">#0bcce6</color>
+
 </resources>
