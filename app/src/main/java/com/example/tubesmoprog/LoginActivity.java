@@ -62,5 +62,9 @@ public class LoginActivity extends AppCompatActivity {
         });
 
     }
+    public void tombolRegister(View v){
+        Intent iregis = new Intent(getApplicationContext(),RegisterActivity.class);
+        startActivity(iregis);
+    }
 }
 

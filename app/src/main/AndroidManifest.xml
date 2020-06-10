@@ -9,7 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileAngga"></activity>
+        <activity android:name=".ProfileAnggaa"></activity>
+        <activity android:name=".infoProfileUser" />
+        <activity android:name=".ProfileAngga" />
         <activity android:name=".infoProfile" />
         <activity android:name=".LihatPusatEdukasi" />
         <activity android:name=".AdminListRsRujukan" />

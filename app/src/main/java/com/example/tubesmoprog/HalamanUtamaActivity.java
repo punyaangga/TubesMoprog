@@ -101,10 +101,13 @@ public class HalamanUtamaActivity extends AppCompatActivity {
                 startActivity(ilogout);
             }
         });
+        //End = Fungsi Logout
 
     }
-    public void Exit(){
-        finish();
+
+    public void ProfilePembuatUser(View v){
+        Intent iProfile = new Intent(getApplicationContext(),infoProfileUser.class);
+        startActivity(iProfile);
     }
-    //End = Fungsi Logout
+
 }
