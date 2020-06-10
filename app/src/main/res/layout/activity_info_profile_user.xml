@@ -121,7 +121,7 @@
                             android:onClick="profileAyuu"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:background="@drawable/ic_developer_mode_black_24dp"
+                            android:background="@drawable/fotoayu"
                             android:layout_gravity="center"
                             android:layout_marginTop="15dp"></Button>
 

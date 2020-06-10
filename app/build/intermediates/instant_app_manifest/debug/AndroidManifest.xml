@@ -19,6 +19,7 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.tubesmoprog.ProfileAyu" />
         <activity android:name="com.example.tubesmoprog.ProfileAnggaa" />
         <activity android:name="com.example.tubesmoprog.infoProfileUser" />
         <activity android:name="com.example.tubesmoprog.ProfileAngga" />
