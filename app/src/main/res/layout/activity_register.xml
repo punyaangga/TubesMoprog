@@ -67,6 +67,13 @@
             android:visibility="gone"
             android:inputType="none"/>
 
+        <EditText
+            android:id="@+id/EtLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="user"
+            android:visibility="gone"
+            android:inputType="none"/>
         <LinearLayout
             android:layout_width="280dp"
             android:layout_height="340dp"
