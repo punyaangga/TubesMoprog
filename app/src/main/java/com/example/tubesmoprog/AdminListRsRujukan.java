@@ -23,13 +23,22 @@ public class AdminListRsRujukan extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbcenter;
     public static AdminListRsRujukan ma;
-    Button btnAddRs;
+    Button btnAddRs,backMenu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_list_rs_rujukan);
         btnAddRs=(Button) findViewById(R.id.btnAddRs);
+        backMenu=(Button) findViewById(R.id.backMenu);
+
+        backMenu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iKembali = new Intent(getApplicationContext(),DashboardAdmin.class);
+                startActivity(iKembali);
+            }
+        });
         btnAddRs.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View arg0) {

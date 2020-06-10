@@ -22,14 +22,22 @@ public class AdminListKontenEdukasi extends AppCompatActivity {
     protected Cursor cursor;
     DataHelper dbcenter;
     public static AdminListKontenEdukasi ke;
-    Button btnAddEdukasi;
+    Button btnAddEdukasi,backEdukasi;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_list_konten_edukasi);
         btnAddEdukasi = (Button) findViewById(R.id.btnAddEdukasi);
+        backEdukasi= (Button) findViewById(R.id.backMenuEdukasi);
 
+        backEdukasi.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent ikembali = new Intent(getApplicationContext(),DashboardAdmin.class);
+                startActivity(ikembali);
+            }
+        });
 
         btnAddEdukasi.setOnClickListener(new View.OnClickListener() {
             @Override

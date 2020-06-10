@@ -2,9 +2,12 @@ package com.example.tubesmoprog;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 
 public class AdminLihatRsRujukan extends AppCompatActivity {
@@ -12,12 +15,14 @@ public class AdminLihatRsRujukan extends AppCompatActivity {
     DataHelper dbHelper;
 
     EditText edtLihatNamaRs,edtLihatTelp,edtLihatAlamat;
+    Button backRs;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_admin_lihat_rs_rujukan);
 
+        backRs=(Button) findViewById(R.id.btnBackLihatRs);
         edtLihatNamaRs=(EditText) findViewById(R.id.EtLihatNamaRs);
         edtLihatTelp=(EditText) findViewById(R.id.EtLihatNoTelp);
         edtLihatAlamat=(EditText) findViewById(R.id.EtLihatAlamat);
@@ -34,7 +39,13 @@ public class AdminLihatRsRujukan extends AppCompatActivity {
 
         }
 
-
+        backRs.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iback = new Intent(getApplicationContext(),AdminListRsRujukan.class);
+                startActivity(iback);
+            }
+        });
 
     }
 }

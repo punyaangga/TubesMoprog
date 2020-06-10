@@ -114,7 +114,7 @@
                     android:paddingLeft="5dp" />
 
                 <Button
-                    android:id="@+id/btnBack"
+                    android:id="@+id/btnBackLihatRs"
                     android:layout_width="match_parent"
                     android:layout_height="35dp"
                     android:layout_marginLeft="20dp"

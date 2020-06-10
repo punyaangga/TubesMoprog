@@ -8,6 +8,12 @@
         android:layout_height="match_parent"
         android:background="#7966FE"
         android:padding="20dp">
+    <Button
+        android:id="@+id/backMenuEdukasi"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"
+        android:layout_alignParentLeft="true"/>
 
             <TextView
                 android:id="@+id/TvTitle"
