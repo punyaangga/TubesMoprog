@@ -132,7 +132,6 @@
                     android:textColor="@color/colorWhite"></Button>
             </LinearLayout>
 
-
         </LinearLayout>
 
     </LinearLayout>
