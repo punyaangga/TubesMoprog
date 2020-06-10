@@ -1,6 +1,8 @@
 package com.example.tubesmoprog;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
@@ -27,6 +29,14 @@ public class AdminEditEdukasi extends AppCompatActivity {
         editId=(EditText) findViewById(R.id.EditIdKonten);
         btnUpdateBack = (Button) findViewById(R.id.btnUpdateBack);
         btnUpdateEdukasi = (Button) findViewById(R.id.btnUpdateEdukasi);
+
+        btnUpdateBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent iKembali = new Intent(getApplicationContext(),AdminListKontenEdukasi.class);
+                startActivity(iKembali);
+            }
+        });
 
         //Start = fungsi nampilin data ke form
         SQLiteDatabase db = dbHelper.getReadableDatabase();

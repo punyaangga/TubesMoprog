@@ -46,7 +46,7 @@ public class DashboardAdmin extends AppCompatActivity {
         startActivity(iListKonten);
     }
     public  void PindahRs(View v){
-        Intent iListKonten = new Intent(getApplicationContext(),AdminListKontenEdukasi.class);
+        Intent iListKonten = new Intent(getApplicationContext(),AdminListRsRujukan.class);
         startActivity(iListKonten);
     }
 
