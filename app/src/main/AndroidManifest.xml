@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity android:name=".ProfileAyu"></activity>
+=======
+        <activity android:name=".ProfileDevi"></activity>
+>>>>>>> 3743f80baec4809380e45267a7dba4f65cd967e2
         <activity android:name=".ProfileAnggaa" />
         <activity android:name=".infoProfileUser" />
         <activity android:name=".ProfileAngga" />
