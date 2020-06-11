@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.tubesmoprog">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ProfileAnggaa"></activity>
+        <activity android:name=".infoProfileUser" />
+        <activity android:name=".ProfileAngga" />
+        <activity android:name=".infoProfile" />
+        <activity android:name=".LihatPusatEdukasi" />
+        <activity android:name=".AdminListRsRujukan" />
+        <activity android:name=".AdminLihatRsRujukan" />
+        <activity android:name=".EditRsRujukan" />
+        <activity android:name=".AdminEditEdukasi" />
+        <activity android:name=".AdminLihatEdukasi" />
+        <activity android:name=".AdminListKontenEdukasi" />
+        <activity android:name=".AdminKontenEdukasi" />
+        <activity android:name=".DaftarRumahSakit" />
+        <activity android:name=".HalamanUtamaActivity" />
+        <activity android:name=".DashboardAdmin" />
+        <activity android:name=".BacaYuk" />
+        <activity android:name=".PusatEdukasi" />
+        <activity android:name=".AdminRsRujukan" />
+        <activity android:name=".HalamanAwalActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

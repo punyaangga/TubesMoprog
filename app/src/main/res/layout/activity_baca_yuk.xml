@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".BacaYuk">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPurple">
+    <Button
+        android:id="@+id/btnBackBaca"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_arrow_back_black_24dp"/>
+    <TextView
+        android:id="@+id/textpstedukasi1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Pusat Edukasi"
+        android:textColor="@color/colorWhite"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/textpstedukasi2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textpstedukasi1"
+        android:gravity="center"
+        android:text="E-CoVi19"
+        android:textColor="@color/lightGray"
+        android:textSize="16dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        android:orientation="vertical"
+        android:layout_below="@id/textpstedukasi2"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="0dp"
+            android:src="@drawable/icon_pendidikan" />
+
+        <TextView
+            android:id="@+id/judulKonten"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Cara Menjaga Imun Tubuh"
+            android:textColor="@color/colorBlack"
+            android:textSize="25sp"></TextView>
+
+        <TextView
+            android:id="@+id/kontenIsi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi Konten"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/colorBlack"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7966FE"
+        android:padding="20dp">
+    <Button
+        android:id="@+id/backMenuEdukasi"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"
+        android:layout_alignParentLeft="true"/>
+
+            <TextView
+                android:id="@+id/TvTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="List Konten Edukasi"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentTop="true"
+                android:textSize="20dp"
+                android:textStyle="bold"></TextView>
+
+            <TextView
+                android:id="@+id/TvTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:text="E-Vico19"
+                android:layout_below="@id/TvTitle"
+                android:layout_marginBottom="10dp"
+                android:textColor="#FFFFFF"></TextView>
+
+
+                <ListView
+                    android:id="@+id/lvEdukasi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/TvTitle2"
+
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/rr_kotaklogin"
+                    android:layout_marginBottom="15dp"></ListView>
+
+
+            <Button
+                android:id="@+id/btnAddEdukasi"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rr_buttonstyle3"
+                android:layout_alignParentRight="true"
+                android:text="Add Data"
+                android:textColor="@color/colorWhite"></Button>
+
+
+    </RelativeLayout>

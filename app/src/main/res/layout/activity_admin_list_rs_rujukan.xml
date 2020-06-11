@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPurple"
+    android:padding="20dp"
+    tools:context=".AdminListRsRujukan">
+
+    <Button
+        android:id="@+id/backMenu"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/ic_arrow_back_black_24dp"
+        android:layout_alignParentLeft="true"/>
+    <TextView
+        android:id="@+id/textRS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="List Rumah Sakit Rujukan"
+        android:textColor="@color/colorWhite"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textRS"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="20dp"
+        android:text="E-ViCo 19"
+        android:textColor="@color/lightGray"
+        android:textSize="18dp" />
+
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:background="@drawable/rr_kotaklogin">
+
+    </ListView>
+
+    <Button
+        android:id="@+id/btnAddRs"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Add Data"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/rr_buttonstyle3"/>
+
+</RelativeLayout>
+
