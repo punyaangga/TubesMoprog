@@ -6,114 +6,113 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="15"
-8-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml
+8-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml
+9-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 10
 11    <application
-11-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-43:19
+11-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-43:19
 12        android:allowBackup="true"
-12-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
+12-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.1.0] C:\Users\ASUS\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
+13-->[androidx.core:core:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\e9dab9c67c1ee3668e0bbf86c6d8cbd8\core-1.1.0\AndroidManifest.xml:24:18-86
 14        android:debuggable="true"
 15        android:icon="@mipmap/ic_launcher_foreground"
-15-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:7:9-54
+15-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:7:9-54
 16        android:label="@string/app_name"
-16-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:8:9-41
+16-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:8:9-41
 17        android:roundIcon="@mipmap/ic_launcher_foreground"
-17-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:9:9-59
+17-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:9:9-59
 18        android:supportsRtl="true"
-18-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/AppTheme" >
-20-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
-21        <activity android:name="com.example.tubesmoprog.ProfileAyu" />
-21-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-57
-21-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-45
-22        <activity android:name="com.example.tubesmoprog.ProfileDevi" />
-22-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-58
-22-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-46
-23        <activity android:name="com.example.tubesmoprog.ProfileAnggaa" />
-23-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-51
-23-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-48
-24        <activity android:name="com.example.tubesmoprog.infoProfileUser" />
-24-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-53
-24-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-50
-25        <activity android:name="com.example.tubesmoprog.ProfileAngga" />
-25-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-50
-25-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-47
-26        <activity android:name="com.example.tubesmoprog.infoProfile" />
-26-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:17:9-49
-26-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:17:19-46
-27        <activity android:name="com.example.tubesmoprog.LihatPusatEdukasi" />
-27-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:18:9-55
-27-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:18:19-52
-28        <activity android:name="com.example.tubesmoprog.AdminListRsRujukan" />
-28-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:19:9-56
-28-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:19:19-53
-29        <activity android:name="com.example.tubesmoprog.AdminLihatRsRujukan" />
-29-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:20:9-57
-29-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:20:19-54
-30        <activity android:name="com.example.tubesmoprog.EditRsRujukan" />
-30-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:21:9-51
-30-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:21:19-48
-31        <activity android:name="com.example.tubesmoprog.AdminEditEdukasi" />
-31-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:22:9-54
-31-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:22:19-51
-32        <activity android:name="com.example.tubesmoprog.AdminLihatEdukasi" />
-32-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:23:9-55
-32-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:23:19-52
-33        <activity android:name="com.example.tubesmoprog.AdminListKontenEdukasi" />
-33-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:24:9-60
-33-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:24:19-57
-34        <activity android:name="com.example.tubesmoprog.AdminKontenEdukasi" />
-34-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:25:9-56
-34-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:25:19-53
-35        <activity android:name="com.example.tubesmoprog.DaftarRumahSakit" />
-35-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:26:9-54
-35-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:26:19-51
-36        <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" />
-36-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:27:9-58
-36-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:27:19-55
-37        <activity android:name="com.example.tubesmoprog.DashboardAdmin" />
-37-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:28:9-52
-37-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:28:19-49
-38        <activity android:name="com.example.tubesmoprog.BacaYuk" />
-38-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:29:9-45
-38-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:29:19-42
-39        <activity android:name="com.example.tubesmoprog.PusatEdukasi" />
-39-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:30:9-50
-39-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:30:19-47
-40        <activity android:name="com.example.tubesmoprog.AdminRsRujukan" />
-40-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:31:9-52
-40-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:31:19-49
-41        <activity android:name="com.example.tubesmoprog.HalamanAwalActivity" />
-41-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:32:9-57
-41-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:32:19-54
-42        <activity android:name="com.example.tubesmoprog.LoginActivity" />
-42-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:33:9-51
-42-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:33:19-48
-43        <activity android:name="com.example.tubesmoprog.RegisterActivity" />
-43-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:34:9-54
-43-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:34:19-51
-44        <activity android:name="com.example.tubesmoprog.MainActivity" />
-44-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:35:9-50
-44-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:35:19-47
-45        <activity android:name="com.example.tubesmoprog.SplashScreen" >
-45-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:36:9-42:20
-45-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:36:19-47
-46            <intent-filter>
-46-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:37:13-41:29
-47                <action android:name="android.intent.action.MAIN" />
-47-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:38:17-69
-47-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:38:25-66
-48
-49                <category android:name="android.intent.category.LAUNCHER" />
-49-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:40:17-77
-49-->D:\!!Kuliah\Mobile Programming\TubesMoprog\app\src\main\AndroidManifest.xml:40:27-74
-50            </intent-filter>
-51        </activity>
-52    </application>
-53
-54</manifest>
+18-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.tubesmoprog.ProfileAyu" />
+20-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-57
+20-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-45
+21        <activity android:name="com.example.tubesmoprog.ProfileDevi" />
+21-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-58
+21-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-46
+22        <activity android:name="com.example.tubesmoprog.ProfileAnggaa" />
+22-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-51
+22-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-48
+23        <activity android:name="com.example.tubesmoprog.infoProfileUser" />
+23-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-53
+23-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-50
+24        <activity android:name="com.example.tubesmoprog.ProfileAngga" />
+24-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-50
+24-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-47
+25        <activity android:name="com.example.tubesmoprog.infoProfile" />
+25-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:9-49
+25-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:19-46
+26        <activity android:name="com.example.tubesmoprog.LihatPusatEdukasi" />
+26-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:9-55
+26-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:19-52
+27        <activity android:name="com.example.tubesmoprog.AdminListRsRujukan" />
+27-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:9-56
+27-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:19-53
+28        <activity android:name="com.example.tubesmoprog.AdminLihatRsRujukan" />
+28-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:9-57
+28-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:19-54
+29        <activity android:name="com.example.tubesmoprog.EditRsRujukan" />
+29-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:9-51
+29-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:19-48
+30        <activity android:name="com.example.tubesmoprog.AdminEditEdukasi" />
+30-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:9-54
+30-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:19-51
+31        <activity android:name="com.example.tubesmoprog.AdminLihatEdukasi" />
+31-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:9-55
+31-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:19-52
+32        <activity android:name="com.example.tubesmoprog.AdminListKontenEdukasi" />
+32-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:24:9-60
+32-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:24:19-57
+33        <activity android:name="com.example.tubesmoprog.AdminKontenEdukasi" />
+33-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:9-56
+33-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:19-53
+34        <activity android:name="com.example.tubesmoprog.DaftarRumahSakit" />
+34-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:26:9-54
+34-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:26:19-51
+35        <activity android:name="com.example.tubesmoprog.HalamanUtamaActivity" />
+35-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:27:9-58
+35-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:27:19-55
+36        <activity android:name="com.example.tubesmoprog.DashboardAdmin" />
+36-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:28:9-52
+36-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:28:19-49
+37        <activity android:name="com.example.tubesmoprog.BacaYuk" />
+37-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:29:9-45
+37-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:29:19-42
+38        <activity android:name="com.example.tubesmoprog.PusatEdukasi" />
+38-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:30:9-50
+38-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:30:19-47
+39        <activity android:name="com.example.tubesmoprog.AdminRsRujukan" />
+39-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:31:9-52
+39-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:31:19-49
+40        <activity android:name="com.example.tubesmoprog.HalamanAwalActivity" />
+40-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:32:9-57
+40-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:32:19-54
+41        <activity android:name="com.example.tubesmoprog.LoginActivity" />
+41-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:33:9-51
+41-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:33:19-48
+42        <activity android:name="com.example.tubesmoprog.RegisterActivity" />
+42-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:34:9-54
+42-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:34:19-51
+43        <activity android:name="com.example.tubesmoprog.MainActivity" />
+43-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:35:9-50
+43-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:35:19-47
+44        <activity android:name="com.example.tubesmoprog.SplashScreen" >
+44-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:36:9-42:20
+44-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:36:19-47
+45            <intent-filter>
+45-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:37:13-41:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:38:17-69
+46-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:38:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:40:17-77
+48-->E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:40:27-74
+49            </intent-filter>
+50        </activity>
+51    </application>
+52
+53</manifest>
