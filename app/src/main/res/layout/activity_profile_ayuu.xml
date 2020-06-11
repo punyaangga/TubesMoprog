@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:orientation="horizontal"
+            android:background="@drawable/rr_atasayu">
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:src="@drawable/gambarfoto"></ImageView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/TvBackYaa"
+                    android:drawableRight="@drawable/ic_arrow_red_black_24dp"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:text="PROFILE"
+                    android:layout_marginLeft="15dp"
+                    android:textColor="@color/colorHijauMuda"></TextView>
+
+                <TextView
+                    android:layout_width="284dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="5dp"
+                    android:text="AYU PERAIYANTIKA"
+                    android:textColor="@color/colorHiMud2"
+                    android:textStyle="bold"></TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="25dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginTop="10dp"
+                    android:text="INFORMATIKA UNJANI"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:paddingRight="10dp"
+                    android:paddingLeft="10dp"
+                    android:paddingBottom="3dp"
+                    android:paddingTop="2dp"
+                    android:drawableRight="@drawable/ic_school_black_24dp"
+                    android:background="@drawable/rr_koayu">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp">
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/rr_lingayu"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/rr_lingayu2"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="15dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:background="@drawable/rr_lingayu3"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="CONTACT INFO"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:paddingTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="7dp"
+                    android:drawableRight="@drawable/ic_call_black_24dp"
+                    android:background="@drawable/rr_kotakoren"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/TvEmailAyuu"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorKuningMuda"
+                        android:drawableLeft="@drawable/ic_contact_mail_black_24dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:text=" ayuperaiyantika123@gmail.com">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/TvTelponAyuu"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorKuningMuda"
+                        android:drawableLeft="@drawable/ic_contact_phone_black_24dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:text=" +628 9679921132">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/TvYoutubeAyuu"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorKuningMuda"
+                        android:drawableLeft="@drawable/ic_video_library_black_24dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:text=" Ayu Peraiyantika">
+                    </TextView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:id="@+id/TvInstagramAyuu"
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorKuningMuda"
+                        android:drawableLeft="@drawable/ic_linked_camera_black_24dp"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:text=" peraiyantika">
+                    </TextView>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="EDUCATION"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:paddingTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="7dp"
+                    android:drawableRight="@drawable/ic_school_black_24dp"
+                    android:background="@drawable/rr_kotakungutua"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorPurple"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="0dp"
+                        android:text="High School">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@color/colorGray"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:text="- Smp Negeri 2 Cimahi (2011-2014)">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@color/colorPurple"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="0dp"
+                        android:text="Vocational High School">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@color/colorGray"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:text="- Smk Negeri 1 Cimahi (2014-2018)">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@color/colorPurple"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="0dp"
+                        android:text="Current Education">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@color/colorGray"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:text="- UNJANI (2019)">
+                    </TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_marginTop="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="170dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="EXPERIENCE"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:paddingTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="7dp"
+                    android:drawableRight="@drawable/ic_group_work_black_24dp"
+                    android:background="@drawable/rr_kotakbuee"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorBluee"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:text=" Internship Program">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="170dp"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="0dp"
+                        android:textColor="@color/colorGray"
+                        android:layout_marginRight="10dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:text="Administration, R and D Packaging and Service Department (Develop Raw Material Management Application) - 2017)">
+                    </TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="170dp"
+                android:layout_height="170dp"
+                android:layout_marginLeft="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:text="LANGUAGES"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:paddingTop="7dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="12dp"
+                    android:paddingBottom="7dp"
+                    android:drawableRight="@drawable/ic_language_black_24dp"
+                    android:background="@drawable/rr_kotakpink"></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorGray"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="0dp"
+                        android:text="Indonesia">
+                    </TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="@color/colorGray"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="5dp"
+                        android:paddingRight="0dp"
+                        android:text="English">
+                    </TextView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="25dp"
+                        android:layout_height="20dp"
+                        android:layout_marginTop="0dp"
+                        android:textStyle="bold"
+                        android:textSize="9sp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:drawableLeft="@drawable/ic_star_black_24dp">
+                    </TextView>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

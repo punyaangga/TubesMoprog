@@ -11,7 +11,7 @@ import android.widget.TextView;
 
 import org.w3c.dom.Text;
 
-public class ProfileAyu extends AppCompatActivity {
+public class ProfileAyuu extends AppCompatActivity {
     TextView tvEmail, tvYoutube,tvInstagram;
     TextView back;
     TextView telpon;
@@ -19,9 +19,9 @@ public class ProfileAyu extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_profile_ayu);
+        setContentView(R.layout.activity_profile_ayuu);
 
-        tvEmail = (TextView) findViewById(R.id.TvEmailAyu);
+        tvEmail = (TextView) findViewById(R.id.TvEmailAyuu);
         tvEmail.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +32,7 @@ public class ProfileAyu extends AppCompatActivity {
             }
         });
 
-        tvYoutube = (TextView) findViewById(R.id.TvYoutubeAyu);
+        tvYoutube = (TextView) findViewById(R.id.TvYoutubeAyuu);
         tvYoutube.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -43,16 +43,16 @@ public class ProfileAyu extends AppCompatActivity {
             }
         });
 
-        back = (TextView) findViewById(R.id.TvBackYa);
+        back = (TextView) findViewById(R.id.TvBackYaa);
         back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent backk = new Intent(getApplicationContext(),infoProfile.class);
+                Intent backk = new Intent(getApplicationContext(),infoProfileUser.class);
                 startActivity(backk);
             }
         });
 
-        telpon= (TextView) findViewById(R.id.TvTelponAyu);
+        telpon= (TextView) findViewById(R.id.TvTelponAyuu);
         telpon.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
@@ -63,7 +63,7 @@ public class ProfileAyu extends AppCompatActivity {
             }
         });
 
-        tvInstagram = (TextView) findViewById(R.id.TvInstagramAyu);
+        tvInstagram = (TextView) findViewById(R.id.TvInstagramAyuu);
         tvInstagram.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

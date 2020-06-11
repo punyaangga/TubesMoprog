@@ -14,15 +14,15 @@ public class infoProfileUser extends AppCompatActivity {
         setContentView(R.layout.activity_info_profile_user);
     }
     public void profileAnggaa(View v){
-        //Intent iAngga = new Intent(getApplicationContext(),ProfileAnggaa.class);
-        //startActivity(iAngga);
+        Intent iAngga = new Intent(getApplicationContext(),ProfileAnggaa.class);
+        startActivity(iAngga);
     }
     public void profileDevii(View v){
         Intent iDevi = new Intent(getApplicationContext(),ProfileDevi.class);
         startActivity(iDevi);
     }
     public void profileAyuu(View v){
-        Intent iAyu = new Intent(getApplicationContext(),ProfileAyu.class);
+        Intent iAyu = new Intent(getApplicationContext(),ProfileAyuu.class);
         startActivity(iAyu);
     }
     public void kembaliKeHalamanUtama(View v){

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
 MERGED from [androidx.appcompat:appcompat:1.1.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\6119d746697059b7e1b74aab4d181f56\appcompat-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\4fe44ae24daa7cfa2dd483a5d3b65a2f\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -27,25 +27,25 @@ MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Angga Fantiya H\
 MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\63647da4654da12a6f2785cfbbad8123\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\733fc1d306cee2c05d3e1fb0b7527020\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\fdd65d8b6066fd289a68b42931dc03a2\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
-INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
 	package
 		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:3:5-38
 		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-45:12
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:1-46:12
 		INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-43:19
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:5:5-44:19
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:1.1.3] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\3ec6fa8458ddbe732478393a9f9e6c77\constraintlayout-1.1.3\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\Angga Fantiya H\.gradle\caches\transforms-2\files-2.1\790a27528565e7026e3a742bb8ca9558\jetified-circleimageview-2.2.0\AndroidManifest.xml:9:5-20
@@ -68,116 +68,120 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\An
 		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.tubesmoprog.ProfileAyuu
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-58
+	android:name
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-46
 activity#com.example.tubesmoprog.ProfileAyu
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:9-57
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-48
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:12:19-45
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-45
 activity#com.example.tubesmoprog.ProfileDevi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:9-58
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-49
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:13:19-46
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-46
 activity#com.example.tubesmoprog.ProfileAnggaa
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:9-51
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-51
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:14:19-48
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-48
 activity#com.example.tubesmoprog.infoProfileUser
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:9-53
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-53
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:15:19-50
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-50
 activity#com.example.tubesmoprog.ProfileAngga
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:9-50
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:9-50
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:16:19-47
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:19-47
 activity#com.example.tubesmoprog.infoProfile
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:9-49
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:9-49
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:17:19-46
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:19-46
 activity#com.example.tubesmoprog.LihatPusatEdukasi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:9-55
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:9-55
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:18:19-52
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:19-52
 activity#com.example.tubesmoprog.AdminListRsRujukan
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:9-56
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:9-56
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:19:19-53
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:19-53
 activity#com.example.tubesmoprog.AdminLihatRsRujukan
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:9-57
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:9-57
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:20:19-54
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:19-54
 activity#com.example.tubesmoprog.EditRsRujukan
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:9-51
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:9-51
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:21:19-48
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:19-48
 activity#com.example.tubesmoprog.AdminEditEdukasi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:9-54
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:9-54
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:22:19-51
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:19-51
 activity#com.example.tubesmoprog.AdminLihatEdukasi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:9-55
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:24:9-55
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:23:19-52
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:24:19-52
 activity#com.example.tubesmoprog.AdminListKontenEdukasi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:24:9-60
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:9-60
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:24:19-57
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:19-57
 activity#com.example.tubesmoprog.AdminKontenEdukasi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:9-56
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:26:9-56
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:25:19-53
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:26:19-53
 activity#com.example.tubesmoprog.DaftarRumahSakit
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:26:9-54
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:27:9-54
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:26:19-51
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:27:19-51
 activity#com.example.tubesmoprog.HalamanUtamaActivity
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:27:9-58
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:28:9-58
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:27:19-55
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:28:19-55
 activity#com.example.tubesmoprog.DashboardAdmin
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:28:9-52
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:29:9-52
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:28:19-49
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:29:19-49
 activity#com.example.tubesmoprog.BacaYuk
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:29:9-45
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:30:9-45
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:29:19-42
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:30:19-42
 activity#com.example.tubesmoprog.PusatEdukasi
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:30:9-50
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:31:9-50
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:30:19-47
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:31:19-47
 activity#com.example.tubesmoprog.AdminRsRujukan
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:31:9-52
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:32:9-52
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:31:19-49
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:32:19-49
 activity#com.example.tubesmoprog.HalamanAwalActivity
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:32:9-57
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:33:9-57
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:32:19-54
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:33:19-54
 activity#com.example.tubesmoprog.LoginActivity
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:33:9-51
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:34:9-51
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:33:19-48
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:34:19-48
 activity#com.example.tubesmoprog.RegisterActivity
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:34:9-54
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:35:9-54
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:34:19-51
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:35:19-51
 activity#com.example.tubesmoprog.MainActivity
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:35:9-50
-	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:35:19-47
-activity#com.example.tubesmoprog.SplashScreen
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:36:9-42:20
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:36:9-50
 	android:name
 		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:36:19-47
+activity#com.example.tubesmoprog.SplashScreen
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:37:9-43:20
+	android:name
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:37:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:37:13-41:29
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:38:17-69
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:39:17-69
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:38:25-66
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:39:25-66
 category#android.intent.category.LAUNCHER
-ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:40:17-77
+ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:41:17-77
 	android:name
-		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:40:27-74
+		ADDED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml:41:27-74
 uses-sdk
 INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from E:\Prak Mopro\TubesMoprog\app\src\main\AndroidManifest.xml

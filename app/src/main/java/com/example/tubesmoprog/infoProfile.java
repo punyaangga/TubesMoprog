@@ -14,12 +14,12 @@ public class infoProfile extends AppCompatActivity {
         setContentView(R.layout.activity_info_profile);
     }
     public void profileAngga(View v){
-        //Intent iAngga = new Intent(getApplicationContext(),ProfileAngga.class);
-        //startActivity(iAngga);
+        Intent iAngga = new Intent(getApplicationContext(),ProfileAngga.class);
+        startActivity(iAngga);
     }
     public void profileDevi(View v){
-        //Intent iDevi = new Intent(getApplicationContext(),ProfileAngga.class);
-        //startActivity(iDevi);
+        Intent iDevi = new Intent(getApplicationContext(),ProfileDevi.class);
+        startActivity(iDevi);
     }
     public void profileAyu(View v){
         Intent iAyu = new Intent(getApplicationContext(),ProfileAyu.class);
