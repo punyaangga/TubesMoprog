@@ -15,12 +15,12 @@ secara langsung, sumber informasi ini berasal dari Kemenkes RI, Gugus tugas Perc
 
 #Daftar rumah sakit dan Pusat edukasi datanya bisa di olah oleh admin, berikut adalah hak akses untuk aplikasi :
 - Hak akses untuk user :
- . email :user@evico.com
- . password :usev
+ 1. email :user@evico.com
+ 2. password :usev
 
 - Hak akses untuk admin :
- . email : admin@evico.com
- . password : adev
+ 1. email : admin@evico.com
+ 2. password : adev
 
 ---------------------------------------------------------------------------------------------------------------------------------------
 #Anggota Kelompok :
