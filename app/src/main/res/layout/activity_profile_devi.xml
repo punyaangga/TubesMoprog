@@ -77,14 +77,43 @@
             android:gravity="center"
             />
 
+    <TextView
+        android:id="@+id/textdeviline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textdevikelas"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/ic_baseline_linear_scale_24"
+        />
+
     <Button
         android:id="@+id/btndeviemail"
         android:layout_width="50dp"
         android:layout_height="50dp"
-        android:layout_below="@id/textdevikelas"
+        android:layout_below="@id/textdeviline"
         android:layout_marginTop="10dp"
         android:layout_marginLeft="170dp"
         android:background="@drawable/email">
+    </Button>
+
+    <Button
+        android:id="@+id/btndevilinked"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textdeviline"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="100dp"
+        android:background="@drawable/linked">
+    </Button>
+
+    <Button
+        android:id="@+id/btndeviwa"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textdeviline"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/wa">
     </Button>
 
     </RelativeLayout>
