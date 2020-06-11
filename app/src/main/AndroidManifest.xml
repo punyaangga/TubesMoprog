@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_foreground"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ProfileAnggaa"></activity>
+        <activity android:name=".ProfileAyuu"></activity>
+        <activity android:name=".ProfileDevii" />
+        <activity android:name=".ProfileAyu" />
+        <activity android:name=".ProfileDevi" />
+        <activity android:name=".ProfileAnggaa" />
         <activity android:name=".infoProfileUser" />
         <activity android:name=".ProfileAngga" />
         <activity android:name=".infoProfile" />

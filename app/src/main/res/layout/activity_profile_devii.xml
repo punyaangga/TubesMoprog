@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ProfileDevii"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPurple">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPurple"
+        android:padding="20dp"
+        >
+
+        <Button
+            android:id="@+id/btnBackProfilee"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ic_arrow_back_black_24dp"></Button>
+
+        <TextView
+            android:id="@+id/txtdevipofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="My Profile"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="391dp"
+            android:layout_height="611dp"
+            android:layout_marginTop="250dp"
+            android:background="@color/colorblue"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:context=".MainActivity"></LinearLayout>
+
+        <ImageView
+            android:id="@+id/fotoDevi"
+            android:layout_width="wrap_content"
+            android:layout_height="266dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/imgdevii" />
+
+        <TextView
+            android:id="@+id/textdevinama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/fotoDevi"
+            android:textSize="25sp"
+            android:layout_marginTop="40dp"
+            android:textColor="@color/colorWhite"
+            android:text="DEVI FAJAR WATI"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/textdevinim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textdevinama"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorWhite"
+            android:text="3411171112"
+            android:gravity="center"
+            />
+        <TextView
+            android:id="@+id/textdevikelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textdevinim"
+            android:textSize="25sp"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/colorWhite"
+            android:text="DSE-C"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/textdeviline"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/textdevikelas"
+            android:layout_marginTop="80dp"
+            android:background="@drawable/ic_batas"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:layout_below="@id/textdeviline">
+            <Button
+                android:id="@+id/btndeviemaill"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/textdeviline"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/email">
+            </Button>
+
+            <Button
+                android:id="@+id/btndevilinkedd"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/textdeviline"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/linked">
+            </Button>
+
+            <Button
+                android:id="@+id/btndeviwaa"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_below="@id/textdeviline"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/wa">
+            </Button>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

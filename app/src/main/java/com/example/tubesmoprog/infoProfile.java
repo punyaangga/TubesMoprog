@@ -18,13 +18,11 @@ public class infoProfile extends AppCompatActivity {
         startActivity(iAngga);
     }
     public void profileDevi(View v){
-        //Pada bagian intent iDevi terdapat class ProfileAngga.class ganti aja sama nama class profile kalian
-        Intent iDevi = new Intent(getApplicationContext(),ProfileAngga.class);
+        Intent iDevi = new Intent(getApplicationContext(),ProfileDevi.class);
         startActivity(iDevi);
     }
     public void profileAyu(View v){
-        //Pada bagian intent iAyu terdapat class ProfileAngga.class ganti aja sama nama class profile kalian
-        Intent iAyu = new Intent(getApplicationContext(),ProfileAngga.class);
+        Intent iAyu = new Intent(getApplicationContext(),ProfileAyu.class);
         startActivity(iAyu);
     }
     public void kembaliKeDashboard(View v){

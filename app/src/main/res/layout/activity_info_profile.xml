@@ -28,7 +28,7 @@
             android:id="@+id/TvKetJud"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Profile Pembuat Aplikasi"
+            android:text="Profile Pembuat Aplikasi Evico - Page Admin"
             android:textColor="@color/lightGray"
             android:layout_marginBottom="30dp"
             android:textSize="13sp"
@@ -95,7 +95,7 @@
                             android:onClick="profileDevi"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:background="@drawable/ic_local_hospital_black_24dp"
+                            android:background="@drawable/imgdevii"
                             android:layout_gravity="center"
                             android:layout_marginTop="15dp"></Button>
 
@@ -121,7 +121,7 @@
                             android:onClick="profileAyu"
                             android:layout_width="60dp"
                             android:layout_height="60dp"
-                            android:background="@drawable/ic_developer_mode_black_24dp"
+                            android:background="@drawable/fotoayu"
                             android:layout_gravity="center"
                             android:layout_marginTop="15dp"></Button>
 
