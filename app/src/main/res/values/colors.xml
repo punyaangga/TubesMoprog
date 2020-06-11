@@ -11,5 +11,16 @@
     <color name="lightGray">#F7F6FB</color>
     <color name="biruMuda">#09c6df</color>
     <color name="biruTua">#0bcce6</color>
+    <color name="colorPurpleSoft">#feccfd</color>
+    <color name="colorHijauMuda">#5cc1c0</color>
+    <color name="colorHiMud2">#39afae</color>
+    <color name="colorBiruMuda">#def5fa</color>
+    <color name="colorKuningMuda">#f6b742</color>
+    <color name="colorUnguuTua">#6129b2</color>
+    <color name="colorBluee">#1982c4</color>
+=======
+    <color name="colorViolet">#846C98</color>
+    <color name="colorblue">#98a2eb</color>
+>>>>>>> 3743f80baec4809380e45267a7dba4f65cd967e2
 
 </resources>

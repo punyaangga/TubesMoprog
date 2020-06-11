@@ -52,6 +52,12 @@ public class DataHelper extends SQLiteOpenHelper {
 
         edukasi = "insert into edukasi (judulKonten,isiKonten) values('Tips Keluar Rumah','Sebelum keluar rumah harus memakai masker');";
         db.execSQL(edukasi);
+        edukasi = "insert into edukasi (judulKonten,isiKonten) values('Penularan Virus Corona','Bagaimana sih virus corona menular?? Kalau kamu hidup dengan makan, berbeda dengan virus corona. Virus corona membuat rumah didalam tubuh manusi. Sebelum membuat rumah, virus corona ini menmpel pada benda - benda sekitar kita, binatang peliharaan, bahkan orang-orang disekitar kita. Setelah memasuki tubuh virus ini dapat melompat sejauh 1-2M.');";
+        db.execSQL(edukasi);
+        edukasi = "insert into edukasi (judulKonten,isiKonten) values('Cegah Penularan!!!','1. Mencuci tangan dengan benar" + "2. Menggunakan Masker" + "3. Menjaga Daya Tahan Tubuh" + "4. Menerapkan physiccal distancing dan isolasi mandiri" + "5. Membersihkan rumah dan melakukan disinfeksi secara rutin"+"6. Selalu Berdoa');";
+        db.execSQL(edukasi);
+        edukasi = "insert into edukasi (judulKonten,isiKonten) values('7 Aktivitas Cegah Depresi dan Cemas saat Pandemi Virus','1. Jauhkan diri dari telepon pintar. Telepon pintar bisa menjadi sumber kecemasan dengan paparan nonstop info seputar pandemi virus corona atau kehidupan orang lain.\n" +"2. Susun jadwal kegiatan menyenangkan Tinggal di rumah saja membutuhkan kreativitas mengisi waktu luang, agar Anda tidak melulu diselimuti pikiran negatif.\n" +"3. Buat tangan selalu sibuk.Stimulasi bisa dilakukan dengan mengerjakan kegiatan berirama seperti menguleni adonan, memotong sayuran, main alat musik, menjahit, memasak, menggambar, dan sebagainya. ');";
+        db.execSQL(edukasi);
 
         //table login
         String logg="create table login(nama text, notelp text, email text primary key, password text, level text);";
