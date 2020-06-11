@@ -18,8 +18,8 @@ public class infoProfileUser extends AppCompatActivity {
         //startActivity(iAngga);
     }
     public void profileDevii(View v){
-       // Intent iDevi = new Intent(getApplicationContext(),ProfileDevi.class);
-       // startActivity(iDevi);
+        Intent iDevi = new Intent(getApplicationContext(),ProfileDevi.class);
+        startActivity(iDevi);
     }
     public void profileAyuu(View v){
         Intent iAyu = new Intent(getApplicationContext(),ProfileAyu.class);
